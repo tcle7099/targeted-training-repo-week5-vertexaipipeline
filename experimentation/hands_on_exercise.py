@@ -95,6 +95,17 @@ def evaluate_model_op(
 # YOUR CODE HERE - Replace this comment block with your component:
 
 
+#     def train_model(reg_rate, X_train, X_test, y_train, y_test):
+#     # Train model
+#     model = LogisticRegression(C=1 / reg_rate, solver="liblinear")
+#     model.fit(X_train, y_train)
+
+#     # Evaluate model
+#     accuracy = model.score(X_test, y_test)
+#     print(f"Model accuracy: {accuracy}")
+
+#     return model
+
 
 
 
